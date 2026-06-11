@@ -1,3 +1,5 @@
 # Summary
 
-- [Chapter 1](./chapter_1.md)
+- [Android Build Setup](./build.md)
+- [Get logs](./logs.md)
+- [Install Android tools](./install_android_tools.md)
