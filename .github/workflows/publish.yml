@@ -17,9 +17,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
-
+        
       - name: Install mdBook
-        run: cargo install mdbook
+        uses: taiki-e/cache-cargo-install-action@v3
+        with:
+          tool: cargo-mdbook
 
       - name: Build book
         run: mdbook build
