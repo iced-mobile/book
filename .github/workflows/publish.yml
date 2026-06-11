@@ -19,7 +19,9 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Install mdBook
-        run: cargo install mdbook
+        uses: taiki-e/install-action@v2
+        with:
+          tool: mdbook
 
       - name: Build book
         run: mdbook build

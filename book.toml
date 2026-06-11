@@ -3,5 +3,9 @@ title = "Iced Mobile"
 authors = ["wiiznokes"]
 language = "en"
 
+
+[output.html]
+git-repository-url = "https://github.com/iced-mobile/book"
+
 [build]             # the directory where the output is placed
 create-missing = false
