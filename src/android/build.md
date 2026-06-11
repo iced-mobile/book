@@ -22,7 +22,7 @@ For this, you can either
   ```
 
 24 is the `minSdk`.
-Either way, you need to have the binary in accessible in the PATH. Usually in `/home/user/Android/Sdk/ndk/27.3.13750724/toolchains/llvm/prebuilt/linux-x86_64/bin`
+Either way, you need to have the binary accessible in the PATH. Usually in `/home/user/Android/Sdk/ndk/27.3.13750724/toolchains/llvm/prebuilt/linux-x86_64/bin`.
 
 To avoid dealing with the NDK setup manually, you can use [`cargo ndk`](https://github.com/bbqsrc/cargo-ndk).
 
@@ -46,4 +46,4 @@ Since we will probably don't want to use Android Studio, here are some useful [a
           1
   ```
 
-Since packaging the apk and installing on the device will take time, to iterate faster, you can build the app for you local environement. Add `rlib` to `crate-type` in `Cargo.toml`, and add a main.rs where you laun
+Since packaging the apk and installing on the device will take time, to iterate faster, you can build the app for you local environement. Add `rlib` to `crate-type` in `Cargo.toml`, and add a `main.rs`.

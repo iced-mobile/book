@@ -2,3 +2,6 @@
 title = "Iced Mobile"
 authors = ["wiiznokes"]
 language = "en"
+
+[build]             # the directory where the output is placed
+create-missing = false
